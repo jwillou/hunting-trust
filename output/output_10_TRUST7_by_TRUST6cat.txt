@@ -1,0 +1,271 @@
+A text corpus with 1620 documents, and an 1803 word dictionary.
+
+   Agree Disagree 
+     739      840 
+A topic model with 10 topics, 1579 documents and a 218 word dictionary.
+Topic 1 Top Words:
+ 	 Highest Prob: manag, alway, reason, wildlif, concern, scienc, everyon 
+ 	 FREX: wildlif, reason, answer, scienc, manag, concern, cant 
+ 	 Lift: answer, respons, cant, wildlif, scienc, reason, everyon 
+ 	 Score: answer, manag, scienc, reason, wildlif, respons, everyon 
+Topic 2 Top Words:
+ 	 Highest Prob: will, want, peopl, can, best, never, interest 
+ 	 FREX: want, will, can, doubt, best, anyth, peopl 
+ 	 Lift: doubt, want, what, hear, anyth, will, can 
+ 	 Score: doubt, want, will, best, can, never, peopl 
+Topic 3 Top Words:
+ 	 Highest Prob: trust, decis, good, feel, may, look, data 
+ 	 FREX: trust, good, job, look, right, agre, may 
+ 	 Lift: job, right, agre, trust, knowledg, inform, look 
+ 	 Score: job, trust, good, look, data, decis, inform 
+Topic 4 Top Words:
+ 	 Highest Prob: feedback, consid, survey, hope, hunter, mani, voic 
+ 	 FREX: feedback, hope, survey, ask, mani, incorpor, use 
+ 	 Lift: isnt, wouldnt, hope, feedback, survey, use, ask 
+ 	 Score: isnt, feedback, survey, hope, consid, wouldnt, ask 
+Topic 5 Top Words:
+ 	 Highest Prob: state, resid, money, tag, non, much, polit 
+ 	 FREX: resid, money, non, state, pay, polit, much 
+ 	 Lift: non, resid, money, pay, due, polit, state 
+ 	 Score: non, resid, money, state, tag, pay, much 
+Topic 6 Top Words:
+ 	 Highest Prob: see, comment, know, time, ive, suggest, experi 
+ 	 FREX: see, know, comment, ive, question, agenda, suggest 
+ 	 Lift: see, know, comment, question, ive, implement, theyr 
+ 	 Score: see, comment, know, ive, time, suggest, question 
+Topic 7 Top Words:
+ 	 Highest Prob: dont, listen, opinion, hunter, think, care, nonresid 
+ 	 FREX: dont, nonresid, care, non-resid, listen, matter, opinion 
+ 	 Lift: especi, non-resid, nonresid, govern, care, matter, dont 
+ 	 Score: especi, dont, care, nonresid, listen, non-resid, matter 
+Topic 8 Top Words:
+ 	 Highest Prob: public, input, believ, decis, outfitt, meet, landown 
+ 	 FREX: input, public, believ, commiss, landown, biologist, outfitt 
+ 	 Lift: often, impact, privat, input, ignor, far, commiss 
+ 	 Score: often, public, input, meet, outfitt, believ, decis 
+Topic 9 Top Words:
+ 	 Highest Prob: game, fish, hunt, wyom, chang, year, seen 
+ 	 FREX: fish, game, year, hunt, area, rancher, elk 
+ 	 Lift: noth, deer, elk, fish, year, rancher, last 
+ 	 Score: noth, game, fish, wyom, hunt, year, chang 
+Topic 10 Top Words:
+ 	 Highest Prob: seem, season, made, think, need, make, way 
+ 	 FREX: made, seem, mind, lot, season, set, way 
+ 	 Lift: mind, made, staff, set, open, lot, seem 
+ 	 Score: mind, made, seem, season, alreadi, set, lot 
+[1] "coherence"
+ [1] -189.4135 -185.5119 -161.8440 -126.2964 -149.3108 -194.8273 -133.8597 -150.6309 -145.3894 -153.2659
+[1] -159.035
+[1] "exclusivity"
+ [1] 9.730680 9.650099 9.570218 9.590043 9.744466 9.744654 9.658830 9.551539 9.637025 9.679020
+[1] 9.655657
+A topic model with 10 topics, 1579 documents and a 218 word dictionary.
+[1] "Topic 1"
+[1] "manag alway reason wildlif concern scienc everyon"
+
+Call:
+estimateEffect(formula = c(i) ~ level - 1, stmobj = output.stm_67, 
+    metadata = output_67$meta, uncertainty = "Global")
+
+
+Topic 1:
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+levelAgree    0.087074   0.003593   24.23   <2e-16 ***
+levelDisagree 0.050715   0.003125   16.23   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                Estimate  Std. Error  t value      Pr(>|t|) category      lower      upper
+levelAgree    0.08706502 0.003579072 24.32615 2.961896e-111    Agree 0.08005004 0.09408000
+levelDisagree 0.05073468 0.003068749 16.53269  9.572135e-57 Disagree 0.04471993 0.05674943
+A topic model with 10 topics, 1579 documents and a 218 word dictionary.
+[1] "Topic 2"
+[1] "will want peopl can best never interest"
+
+Call:
+estimateEffect(formula = c(i) ~ level - 1, stmobj = output.stm_67, 
+    metadata = output_67$meta, uncertainty = "Global")
+
+
+Topic 2:
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+levelAgree    0.082437   0.003960   20.82   <2e-16 ***
+levelDisagree 0.088515   0.003653   24.23   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                Estimate  Std. Error  t value      Pr(>|t|) category      lower      upper
+levelAgree    0.08243587 0.003960064 20.81680  3.144656e-85    Agree 0.07467415 0.09019760
+levelDisagree 0.08853925 0.003586113 24.68948 4.639015e-114 Disagree 0.08151047 0.09556803
+A topic model with 10 topics, 1579 documents and a 218 word dictionary.
+[1] "Topic 3"
+[1] "trust decis good feel may look data"
+
+Call:
+estimateEffect(formula = c(i) ~ level - 1, stmobj = output.stm_67, 
+    metadata = output_67$meta, uncertainty = "Global")
+
+
+Topic 3:
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+levelAgree    0.131986   0.004853   27.20   <2e-16 ***
+levelDisagree 0.038971   0.003472   11.22   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                Estimate  Std. Error t value      Pr(>|t|) category      lower      upper
+levelAgree    0.13200714 0.004868884 27.1124 3.348818e-133    Agree 0.12246413 0.14155015
+levelDisagree 0.03899838 0.003506795 11.1208  1.034226e-27 Disagree 0.03212506 0.04587169
+A topic model with 10 topics, 1579 documents and a 218 word dictionary.
+[1] "Topic 4"
+[1] "feedback consid survey hope hunter mani voic"
+
+Call:
+estimateEffect(formula = c(i) ~ level - 1, stmobj = output.stm_67, 
+    metadata = output_67$meta, uncertainty = "Global")
+
+
+Topic 4:
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+levelAgree    0.197873   0.007061   28.02   <2e-16 ***
+levelDisagree 0.071134   0.004887   14.56   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                Estimate  Std. Error  t value      Pr(>|t|) category      lower      upper
+levelAgree    0.19792873 0.007075164 27.97515 3.531859e-140    Agree 0.18406141 0.21179605
+levelDisagree 0.07110906 0.004789992 14.84534  9.176637e-47 Disagree 0.06172068 0.08049745
+A topic model with 10 topics, 1579 documents and a 218 word dictionary.
+[1] "Topic 5"
+[1] "state resid money tag non much polit"
+
+Call:
+estimateEffect(formula = c(i) ~ level - 1, stmobj = output.stm_67, 
+    metadata = output_67$meta, uncertainty = "Global")
+
+
+Topic 5:
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+levelAgree    0.048446   0.004396   11.02   <2e-16 ***
+levelDisagree 0.133917   0.005083   26.35   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                Estimate  Std. Error  t value      Pr(>|t|) category     lower      upper
+levelAgree    0.04839824 0.004378894 11.05262  2.097116e-27    Agree 0.0398156 0.05698087
+levelDisagree 0.13386641 0.005031008 26.60827 3.675448e-129 Disagree 0.1240056 0.14372719
+A topic model with 10 topics, 1579 documents and a 218 word dictionary.
+[1] "Topic 6"
+[1] "see comment know time ive suggest experi"
+
+Call:
+estimateEffect(formula = c(i) ~ level - 1, stmobj = output.stm_67, 
+    metadata = output_67$meta, uncertainty = "Global")
+
+
+Topic 6:
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+levelAgree    0.073163   0.004082   17.92   <2e-16 ***
+levelDisagree 0.078705   0.003720   21.16   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                Estimate  Std. Error  t value     Pr(>|t|) category      lower      upper
+levelAgree    0.07312945 0.004109657 17.79454 1.072053e-64    Agree 0.06507452 0.08118438
+levelDisagree 0.07866518 0.003723389 21.12730 1.911105e-87 Disagree 0.07136734 0.08596302
+A topic model with 10 topics, 1579 documents and a 218 word dictionary.
+[1] "Topic 7"
+[1] "dont listen opinion hunter think care nonresid"
+
+Call:
+estimateEffect(formula = c(i) ~ level - 1, stmobj = output.stm_67, 
+    metadata = output_67$meta, uncertainty = "Global")
+
+
+Topic 7:
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+levelAgree    0.084638   0.005185   16.32   <2e-16 ***
+levelDisagree 0.202435   0.006505   31.12   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                Estimate  Std. Error  t value      Pr(>|t|) category      lower      upper
+levelAgree    0.08461054 0.005244228 16.13403  2.562458e-54    Agree 0.07433185 0.09488923
+levelDisagree 0.20241017 0.006412996 31.56250 6.944784e-170 Disagree 0.18984069 0.21497964
+A topic model with 10 topics, 1579 documents and a 218 word dictionary.
+[1] "Topic 8"
+[1] "public input believ decis outfitt meet landown"
+
+Call:
+estimateEffect(formula = c(i) ~ level - 1, stmobj = output.stm_67, 
+    metadata = output_67$meta, uncertainty = "Global")
+
+
+Topic 8:
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+levelAgree    0.131176   0.005506   23.82   <2e-16 ***
+levelDisagree 0.134890   0.004951   27.25   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+               Estimate  Std. Error  t value      Pr(>|t|) category     lower     upper
+levelAgree    0.1311880 0.005519948 23.76617 5.725810e-107    Agree 0.1203689 0.1420071
+levelDisagree 0.1348779 0.004966569 27.15716 1.461714e-133 Disagree 0.1251434 0.1446124
+A topic model with 10 topics, 1579 documents and a 218 word dictionary.
+[1] "Topic 9"
+[1] "game fish hunt wyom chang year seen"
+
+Call:
+estimateEffect(formula = c(i) ~ level - 1, stmobj = output.stm_67, 
+    metadata = output_67$meta, uncertainty = "Global")
+
+
+Topic 9:
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+levelAgree    0.101401   0.005467   18.55   <2e-16 ***
+levelDisagree 0.140697   0.005424   25.94   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+               Estimate  Std. Error  t value      Pr(>|t|) category     lower    upper
+levelAgree    0.1014132 0.005520338 18.37082  1.864250e-68    Agree 0.0905933 0.112233
+levelDisagree 0.1406566 0.005335916 26.36035 3.481573e-127 Disagree 0.1301982 0.151115
+A topic model with 10 topics, 1579 documents and a 218 word dictionary.
+[1] "Topic 10"
+[1] "seem season made think need make way"
+
+Call:
+estimateEffect(formula = c(i) ~ level - 1, stmobj = output.stm_67, 
+    metadata = output_67$meta, uncertainty = "Global")
+
+
+Topic 10:
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+levelAgree    0.060806   0.003677   16.54   <2e-16 ***
+levelDisagree 0.058666   0.003465   16.93   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                Estimate  Std. Error  t value     Pr(>|t|) category      lower      upper
+levelAgree    0.06082691 0.003608578 16.85620 9.564330e-59    Agree 0.05375410 0.06789972
+levelDisagree 0.05863118 0.003443509 17.02658 8.249588e-60 Disagree 0.05188191 0.06538046

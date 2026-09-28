@@ -1,0 +1,317 @@
+A text corpus with 2229 documents, and an 2422 word dictionary.
+
+   Agree Disagree 
+    1427      763 
+
+Non-resident     Resident 
+        1370          820 
+
+       Agree Resident    Agree Non-resident     Disagree Resident Disagree Non-resident 
+                  510                   917                   310                   453 
+A topic model with 10 topics, 2190 documents and a 321 word dictionary.
+Topic 1 Top Words:
+ 	 Highest Prob: see, decis, base, use, data, scienc, done 
+ 	 FREX: see, base, use, data, scienc, done, question 
+ 	 Lift: explan, posit, question, base, knowledg, scienc, see 
+ 	 Score: see, explan, data, decis, scienc, base, question 
+Topic 2 Top Words:
+ 	 Highest Prob: seem, trust, feel, alway, polit, work, reason 
+ 	 FREX: trust, seem, polit, reason, wgf, alway, right 
+ 	 Lift: improv, overal, reason, right, trust, polit, govern 
+ 	 Score: improv, trust, polit, seem, alway, reason, right 
+Topic 3 Top Words:
+ 	 Highest Prob: manag, job, best, believ, wildlif, provid, well 
+ 	 FREX: best, job, wildlif, that, manag, resourc, opinion 
+ 	 Lift: theyr, conserv, that, healthi, wildlif, best, job 
+ 	 Score: that, job, best, manag, wildlif, believ, balanc 
+Topic 4 Top Words:
+ 	 Highest Prob: land, public, area, hunt, access, mani, need 
+ 	 FREX: land, public, access, landown, privat, area, control 
+ 	 Lift: access, public, walk, land, landown, privat, control 
+ 	 Score: land, walk, public, area, access, privat, landown 
+Topic 5 Top Words:
+ 	 Highest Prob: can, dont, outfitt, much, interest, know, want 
+ 	 FREX: outfitt, dont, know, much, hope, can, input 
+ 	 Lift: listen, what, outfitt, voic, dont, input, know 
+ 	 Score: what, outfitt, dont, much, can, interest, know 
+Topic 6 Top Words:
+ 	 Highest Prob: tag, year, point, draw, licens, system, elk 
+ 	 FREX: year, draw, system, point, prefer, appli, licens 
+ 	 Lift: prefer, appli, draw, ever, system, year, drawn 
+ 	 Score: tag, draw, point, ever, year, system, prefer 
+Topic 7 Top Words:
+ 	 Highest Prob: hunter, state, think, money, revenu, also, regul 
+ 	 FREX: money, revenu, state, dollar, hunter, regul, prioriti 
+ 	 Lift: bring, grizzli, prioriti, favor, dollar, busi, wolv 
+ 	 Score: state, bring, money, hunter, think, revenu, involv 
+Topic 8 Top Words:
+ 	 Highest Prob: opportun, hunt, game, wyom, good, fish, popul 
+ 	 FREX: game, fish, big, opportun, popul, good, wyom 
+ 	 Lift: entir, fish, usual, game, big, trophi, popul 
+ 	 Score: game, entir, good, fish, opportun, wyom, popul 
+Topic 9 Top Words:
+ 	 Highest Prob: resid, non, nonresid, non-resid, opportun, price, hunt 
+ 	 FREX: non, price, resid, nonresid, fee, non-resid, wilder 
+ 	 Lift: fee, non, price, wilder, cost, expens, nonresid 
+ 	 Score: non, resid, nonresid, non-resid, price, fee, wilder 
+Topic 10 Top Words:
+ 	 Highest Prob: season, will, deer, number, herd, just, time 
+ 	 FREX: season, number, come, success, winter, time, herd 
+ 	 Lift: season, day, winter, success, come, effort, buck 
+ 	 Score: day, season, deer, will, number, herd, winter 
+[1] "coherence"
+ [1] -191.01933 -194.93201 -146.92009 -102.62179 -149.65112  -98.09859 -191.15289 -128.26504 -117.17763 -131.50850
+[1] -145.1347
+[1] "exclusivity"
+ [1] 9.756151 9.707392 9.652245 9.730587 9.712152 9.667692 9.583315 9.778032 9.492694 9.476546
+[1] 9.655681
+A topic model with 10 topics, 2190 documents and a 321 word dictionary.
+[1] "Topic 1"
+[1] "see decis base use data scienc done"
+
+Call:
+estimateEffect(formula = c(i) ~ group - 1, stmobj = output.stm_45r, 
+    metadata = output_45r$meta, uncertainty = "Global")
+
+
+Topic 1:
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+groupAgree Resident        0.099883   0.006982  14.305  < 2e-16 ***
+groupAgree Non-resident    0.108110   0.004673  23.134  < 2e-16 ***
+groupDisagree Resident     0.061104   0.006651   9.187  < 2e-16 ***
+groupDisagree Non-resident 0.034246   0.005243   6.532 8.07e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                             Estimate  Std. Error   t value      Pr(>|t|)                 group      lower      upper
+groupAgree Resident        0.09981682 0.006911284 14.442588  3.149702e-45        Agree Resident 0.08627070 0.11336293
+groupAgree Non-resident    0.10810544 0.004638006 23.308605 1.647828e-107    Agree Non-resident 0.09901495 0.11719594
+groupDisagree Resident     0.06116726 0.006585802  9.287746  3.681534e-20     Disagree Resident 0.04825909 0.07407543
+groupDisagree Non-resident 0.03424686 0.005112431  6.698743  2.665063e-11 Disagree Non-resident 0.02422650 0.04426723
+A topic model with 10 topics, 2190 documents and a 321 word dictionary.
+[1] "Topic 2"
+[1] "seem trust feel alway polit work reason"
+
+Call:
+estimateEffect(formula = c(i) ~ group - 1, stmobj = output.stm_45r, 
+    metadata = output_45r$meta, uncertainty = "Global")
+
+
+Topic 2:
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+groupAgree Resident        0.114489   0.004289  26.697   <2e-16 ***
+groupAgree Non-resident    0.115645   0.003371  34.304   <2e-16 ***
+groupDisagree Resident     0.049979   0.004619  10.821   <2e-16 ***
+groupDisagree Non-resident 0.039151   0.004010   9.763   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                             Estimate  Std. Error   t value      Pr(>|t|)                 group      lower      upper
+groupAgree Resident        0.11452248 0.004271814 26.808865 3.982548e-137        Agree Resident 0.10614972 0.12289523
+groupAgree Non-resident    0.11558354 0.003388428 34.111261 7.668703e-205    Agree Non-resident 0.10894222 0.12222486
+groupDisagree Resident     0.04997427 0.004532145 11.026627  1.491563e-27     Disagree Resident 0.04109127 0.05885727
+groupDisagree Non-resident 0.03908494 0.004023740  9.713585  7.251037e-22 Disagree Non-resident 0.03119841 0.04697147
+A topic model with 10 topics, 2190 documents and a 321 word dictionary.
+[1] "Topic 3"
+[1] "manag job best believ wildlif provid well"
+
+Call:
+estimateEffect(formula = c(i) ~ group - 1, stmobj = output.stm_45r, 
+    metadata = output_45r$meta, uncertainty = "Global")
+
+
+Topic 3:
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+groupAgree Resident        0.140348   0.005144   27.28   <2e-16 ***
+groupAgree Non-resident    0.151404   0.003619   41.84   <2e-16 ***
+groupDisagree Resident     0.063260   0.005119   12.36   <2e-16 ***
+groupDisagree Non-resident 0.044362   0.004080   10.87   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                             Estimate  Std. Error  t value      Pr(>|t|)                 group     lower      upper
+groupAgree Resident        0.14026086 0.005163633 27.16322 3.025259e-140        Agree Resident 0.1301401 0.15038158
+groupAgree Non-resident    0.15141714 0.003625515 41.76431 8.784126e-281    Agree Non-resident 0.1443111 0.15852315
+groupDisagree Resident     0.06330797 0.005169271 12.24698  2.111372e-33     Disagree Resident 0.0531762 0.07343974
+groupDisagree Non-resident 0.04441991 0.004111381 10.80413  1.520891e-26 Disagree Non-resident 0.0363616 0.05247822
+A topic model with 10 topics, 2190 documents and a 321 word dictionary.
+[1] "Topic 4"
+[1] "land public area hunt access mani need"
+
+Call:
+estimateEffect(formula = c(i) ~ group - 1, stmobj = output.stm_45r, 
+    metadata = output_45r$meta, uncertainty = "Global")
+
+
+Topic 4:
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+groupAgree Resident        0.136718   0.008557   15.98   <2e-16 ***
+groupAgree Non-resident    0.073223   0.004491   16.30   <2e-16 ***
+groupDisagree Resident     0.193242   0.009127   21.17   <2e-16 ***
+groupDisagree Non-resident 0.114025   0.007430   15.35   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                             Estimate  Std. Error  t value     Pr(>|t|)                 group      lower      upper
+groupAgree Resident        0.13685776 0.008553741 15.99975 1.423271e-54        Agree Resident 0.12009242 0.15362309
+groupAgree Non-resident    0.07319186 0.004490843 16.29802 1.893616e-56    Agree Non-resident 0.06438981 0.08199391
+groupDisagree Resident     0.19328412 0.009251525 20.89214 1.604749e-88     Disagree Resident 0.17515113 0.21141710
+groupDisagree Non-resident 0.11405723 0.007378973 15.45706 3.138308e-51 Disagree Non-resident 0.09959444 0.12852001
+A topic model with 10 topics, 2190 documents and a 321 word dictionary.
+[1] "Topic 5"
+[1] "can dont outfitt much interest know want"
+
+Call:
+estimateEffect(formula = c(i) ~ group - 1, stmobj = output.stm_45r, 
+    metadata = output_45r$meta, uncertainty = "Global")
+
+
+Topic 5:
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+groupAgree Resident        0.086719   0.004123   21.03   <2e-16 ***
+groupAgree Non-resident    0.081582   0.002948   27.67   <2e-16 ***
+groupDisagree Resident     0.097915   0.005603   17.48   <2e-16 ***
+groupDisagree Non-resident 0.076227   0.004331   17.60   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                             Estimate  Std. Error  t value      Pr(>|t|)                 group      lower      upper
+groupAgree Resident        0.08670473 0.004146179 20.91196  1.135238e-88        Agree Resident 0.07857822 0.09483124
+groupAgree Non-resident    0.08155079 0.002932605 27.80831 5.631782e-146    Agree Non-resident 0.07580288 0.08729869
+groupDisagree Resident     0.09795079 0.005648323 17.34157  3.197933e-63     Disagree Resident 0.08688008 0.10902150
+groupDisagree Non-resident 0.07627100 0.004322311 17.64588  2.952832e-65 Disagree Non-resident 0.06779927 0.08474273
+A topic model with 10 topics, 2190 documents and a 321 word dictionary.
+[1] "Topic 6"
+[1] "tag year point draw licens system elk"
+
+Call:
+estimateEffect(formula = c(i) ~ group - 1, stmobj = output.stm_45r, 
+    metadata = output_45r$meta, uncertainty = "Global")
+
+
+Topic 6:
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+groupAgree Resident        0.069322   0.006064   11.43   <2e-16 ***
+groupAgree Non-resident    0.067076   0.004435   15.12   <2e-16 ***
+groupDisagree Resident     0.136127   0.009596   14.19   <2e-16 ***
+groupDisagree Non-resident 0.182808   0.007278   25.12   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                             Estimate  Std. Error  t value      Pr(>|t|)                 group      lower      upper
+groupAgree Resident        0.06925572 0.006017022 11.50997  8.334277e-30        Agree Resident 0.05746236 0.08104909
+groupAgree Non-resident    0.06715517 0.004429631 15.16044  1.928944e-49    Agree Non-resident 0.05847309 0.07583725
+groupDisagree Resident     0.13609492 0.009578386 14.20854  6.851953e-44     Disagree Resident 0.11732129 0.15486856
+groupDisagree Non-resident 0.18276509 0.007287116 25.08058 3.225099e-122 Disagree Non-resident 0.16848234 0.19704784
+A topic model with 10 topics, 2190 documents and a 321 word dictionary.
+[1] "Topic 7"
+[1] "hunter state think money revenu also regul"
+
+Call:
+estimateEffect(formula = c(i) ~ group - 1, stmobj = output.stm_45r, 
+    metadata = output_45r$meta, uncertainty = "Global")
+
+
+Topic 7:
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+groupAgree Resident        0.072910   0.003525   20.68   <2e-16 ***
+groupAgree Non-resident    0.088249   0.002659   33.19   <2e-16 ***
+groupDisagree Resident     0.112933   0.005933   19.04   <2e-16 ***
+groupDisagree Non-resident 0.103417   0.004937   20.95   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                             Estimate  Std. Error  t value      Pr(>|t|)                 group      lower      upper
+groupAgree Resident        0.07294219 0.003480712 20.95611  5.247459e-89        Agree Resident 0.06611999 0.07976438
+groupAgree Non-resident    0.08824951 0.002662721 33.14261 1.644286e-195    Agree Non-resident 0.08303058 0.09346844
+groupDisagree Resident     0.11285704 0.005883679 19.18137  6.467278e-76     Disagree Resident 0.10132503 0.12438905
+groupDisagree Non-resident 0.10343733 0.004941877 20.93078  8.171403e-89 Disagree Non-resident 0.09375125 0.11312341
+A topic model with 10 topics, 2190 documents and a 321 word dictionary.
+[1] "Topic 8"
+[1] "opportun hunt game wyom good fish popul"
+
+Call:
+estimateEffect(formula = c(i) ~ group - 1, stmobj = output.stm_45r, 
+    metadata = output_45r$meta, uncertainty = "Global")
+
+
+Topic 8:
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+groupAgree Resident        0.155442   0.005849   26.57   <2e-16 ***
+groupAgree Non-resident    0.164938   0.004330   38.10   <2e-16 ***
+groupDisagree Resident     0.108891   0.007114   15.31   <2e-16 ***
+groupDisagree Non-resident 0.080181   0.005710   14.04   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                             Estimate  Std. Error  t value      Pr(>|t|)                 group      lower      upper
+groupAgree Resident        0.15539246 0.005855560 26.53759 9.425833e-135        Agree Resident 0.14391556 0.16686936
+groupAgree Non-resident    0.16492210 0.004309899 38.26588 1.110478e-245    Agree Non-resident 0.15647470 0.17336950
+groupDisagree Resident     0.10890923 0.007143659 15.24558  5.953352e-50     Disagree Resident 0.09490766 0.12291081
+groupDisagree Non-resident 0.08021275 0.005745476 13.96103  1.701396e-42 Disagree Non-resident 0.06895162 0.09147388
+A topic model with 10 topics, 2190 documents and a 321 word dictionary.
+[1] "Topic 9"
+[1] "resid non nonresid non-resid opportun price hunt"
+
+Call:
+estimateEffect(formula = c(i) ~ group - 1, stmobj = output.stm_45r, 
+    metadata = output_45r$meta, uncertainty = "Global")
+
+
+Topic 9:
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+groupAgree Resident        0.027682   0.005025   5.509 4.02e-08 ***
+groupAgree Non-resident    0.071731   0.004692  15.290  < 2e-16 ***
+groupDisagree Resident     0.059889   0.007268   8.240 2.94e-16 ***
+groupDisagree Non-resident 0.244150   0.007777  31.394  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                             Estimate  Std. Error   t value      Pr(>|t|)                 group      lower      upper
+groupAgree Resident        0.02772965 0.005106377  5.430397  6.246493e-08        Agree Resident 0.01772116 0.03773815
+groupAgree Non-resident    0.07169762 0.004748332 15.099538  4.458128e-49    Agree Non-resident 0.06239089 0.08100435
+groupDisagree Resident     0.05974797 0.007408063  8.065263  1.191774e-15     Disagree Resident 0.04522817 0.07426777
+groupDisagree Non-resident 0.24405023 0.007775216 31.388225 7.630777e-179 Disagree Non-resident 0.22881081 0.25928965
+A topic model with 10 topics, 2190 documents and a 321 word dictionary.
+[1] "Topic 10"
+[1] "season will deer number herd just time"
+
+Call:
+estimateEffect(formula = c(i) ~ group - 1, stmobj = output.stm_45r, 
+    metadata = output_45r$meta, uncertainty = "Global")
+
+
+Topic 10:
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)    
+groupAgree Resident        0.094311   0.004342   21.72   <2e-16 ***
+groupAgree Non-resident    0.079075   0.003461   22.85   <2e-16 ***
+groupDisagree Resident     0.114285   0.007002   16.32   <2e-16 ***
+groupDisagree Non-resident 0.078788   0.005065   15.55   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                             Estimate  Std. Error  t value      Pr(>|t|)                 group      lower      upper
+groupAgree Resident        0.09432860 0.004345216 21.70861  8.655081e-95        Agree Resident 0.08581198 0.10284523
+groupAgree Non-resident    0.07912986 0.003428332 23.08116 1.145404e-105    Agree Non-resident 0.07241033 0.08584939
+groupDisagree Resident     0.11418901 0.007000374 16.31184  1.547765e-56     Disagree Resident 0.10046827 0.12790974
+groupDisagree Non-resident 0.07874321 0.005067166 15.53989  9.824003e-52 Disagree Non-resident 0.06881157 0.08867486
