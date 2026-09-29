@@ -1,14 +1,14 @@
 library(stm)
-library(tm)
-library(SnowballC)
-library(Rtsne)
-library(rsvd) 
-library(geometry)
-library(scales)
+# library(tm)
+# library(SnowballC)
+# library(Rtsne)
+# library(rsvd) 
+# library(geometry)
+# library(scales)
 
 setwd("/Users/jannawilloughby/Google Drive/My Drive/Willoughby lab/projects - archive/hunting and trust/hunting-trust/")
 #load(file="output/trust_topic_models.RData")
-
+ 
 ####clean and set up data####
 #removed , . / ' from text response cells
 
